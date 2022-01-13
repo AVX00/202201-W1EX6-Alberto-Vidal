@@ -2,7 +2,9 @@
   color: #546e7a;
   text-decoration: none;
 }
-
+.logo {
+  margin: 20px 20px;
+}
 .header-buttons {
 }
 .header-buttons__button-login {
