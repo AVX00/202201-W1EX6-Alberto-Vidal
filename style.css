@@ -1,3 +1,8 @@
+* {
+  color: #546e7a;
+  text-decoration: none;
+}
+
 .header-buttons {
 }
 .header-buttons__button-login {
@@ -5,10 +10,15 @@
 .header-buttons__button-start {
 }
 .header-menu {
+  width: 70%;
+  background-color: #800;
 }
 .header-menu__element {
+  margin-right: 1em;
 }
 .header {
   background-color: #007;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
