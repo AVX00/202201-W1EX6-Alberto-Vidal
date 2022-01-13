@@ -4,6 +4,9 @@
 
   text-decoration: none;
 }
+*:visited {
+  color: inherit;
+}
 
 .header {
   color: #546e7a;
@@ -29,6 +32,7 @@
   font-weight: bold;
   color: #fff;
 }
+
 .header-menu {
   background-color: #fff;
 }
