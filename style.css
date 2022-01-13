@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 * {
-  color: #546e7a;
+  font-family: "Karla", sans-serif;
+
   text-decoration: none;
 }
+
+.header {
+  color: #546e7a;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
   margin: 20px 3rem;
 }
@@ -15,6 +26,8 @@
   padding: 1rem;
   background-color: #3bd2a2;
   border-radius: 25px;
+  font-weight: bold;
+  color: #fff;
 }
 .header-menu {
   background-color: #fff;
@@ -22,10 +35,4 @@
 .header-menu__element {
   margin-right: 2.5rem;
   font-size: 120%;
-}
-.header {
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
