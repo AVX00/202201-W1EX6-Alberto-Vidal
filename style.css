@@ -10,13 +10,16 @@
 .header-buttons__button-login {
 }
 .header-buttons__button-start {
+  padding: 1rem;
+  background-color: #3bd2a2;
 }
 .header-menu {
   width: 70%;
   background-color: #800;
 }
 .header-menu__element {
-  margin-right: 1em;
+  margin-right: 2.5rem;
+  font-size: 120%;
 }
 .header {
   background-color: #007;
