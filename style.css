@@ -2,22 +2,29 @@
   color: #546e7a;
   text-decoration: none;
 }
-
+.logo {
+  margin: 20px 3rem;
+}
 .header-buttons {
+  margin-right: 3rem;
 }
 .header-buttons__button-login {
+  margin-right: 1rem;
 }
 .header-buttons__button-start {
+  padding: 1rem;
+  background-color: #3bd2a2;
+  border-radius: 25px;
 }
 .header-menu {
-  width: 70%;
-  background-color: #800;
+  background-color: #fff;
 }
 .header-menu__element {
-  margin-right: 1em;
+  margin-right: 2.5rem;
+  font-size: 120%;
 }
 .header {
-  background-color: #007;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
